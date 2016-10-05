@@ -1,0 +1,5 @@
+(define (for-each f items)
+  (let ((next (cdr items)))
+    (cond ((null? next) (f (car items)))
+          (else (f (car items))
+                (for-each f next)))))
