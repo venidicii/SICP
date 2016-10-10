@@ -16,7 +16,7 @@
                  (fringe (cdr lst))))))
 
 ;;Use common lisp can write a very simple version
-(defun fringe (x)
-  (if (atom x)
-	  (list x)
-	  (mapcan #'flatten x)))
+;;(defun fringe (x)
+;;  (if (atom x)
+;;	  (list x)
+;;	  (mapcan #'flatten x)))
