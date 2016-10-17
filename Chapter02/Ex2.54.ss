@@ -1,0 +1,5 @@
+(define (equal? exp1 exp2)
+  (if (and (pair? exp1) (pair? exp2))
+	  (and (equal? (car exp1) (car exp2))
+		   (equal? (cdr exp1) (cdr exp2)))
+	  (eq? exp1 exp2)))
