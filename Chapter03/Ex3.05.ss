@@ -30,4 +30,4 @@
 	(/ (estimate-integral P 2.0 8.0 4.0 10.0 trials) 9)))
 
 ;;------------ Usage ------------
-(time (pi-estimate 100000))
+;;(time (pi-estimate 100000))
